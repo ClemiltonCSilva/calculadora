@@ -17,7 +17,6 @@ class MainActivity : AppCompatActivity() {
 
         val calculo = binding.calculo
         val resultado = binding.resultadocalculo
-
         binding.zero.setOnClickListener{ calculo.text = "${calculo.text}0"}
         binding.um.setOnClickListener { calculo.text = "${calculo.text}1" }
         binding.dois.setOnClickListener { calculo.text = "${calculo.text}2"}
